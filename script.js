@@ -7,7 +7,7 @@ function work(url) {
     teto.onload= ()=>{
         if ( teto.status ==200){
            var xmpaper =JSON.parse(teto.responseText);
-           return callback(xmpaper);
+          
     //creates access to the url array;
 	       const nf0 =Object.values(xmpaper.results[0].name.first);
          const nL0=Object.values(xmpaper.results[0].name.last);
